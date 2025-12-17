@@ -32,7 +32,7 @@ jobs:
        python-version: ${{ env.PYTHON_VERSION }} 
 
      #4 instalar dependencias
-      -name: instalar dependencias
+    - name: instalar dependencias
       run: pip install -r requirements.txt
   
     #5 ejecutar test
